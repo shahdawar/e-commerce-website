@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet" />
@@ -34,220 +38,309 @@
             class="fa-brands fa-linkedin"></i></a>
       </div>
     </dvi>
-    <div class="second">
-      <div class="logo">
-        <a href="#">Zebi</a>
-      </div>
-      <div class="navlinks">
-        <nav class="links">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="shop.html">Shop</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-      <div class="extra">
-        <a href="#" title="search"><i class="fa-solid fa-magnifying-glass"></i></a>
-        <a href="#" title="cart"><i class="fa-solid fa-cart-plus"></i></a>
-        <a href="#" title="notify"><i class="fa-solid fa-user"></i></a>
-      </div>
-    </div>
   </header>
-  <section class="slide-wraper">
-    <div class="slide1">
-      <div class="left-txt">
-        <div class="para1">
-          <p><span>Zebi</span> eCommerce</p>
-        </div>
-        <div class="para2">
-          <p>Tiny and Perfect eCommerce <br />Store.</p>
-        </div>
-        <div class="para3">
-          <p>
-            Explore a stylish, responsive, and fast website crafted to
-            impress. <a href="index.html">Zebi</a> blends creativity with
-            cutting-edge technology to provide visitors a seamless
-            journey—perfect for those who value quality and innovation.
-          </p>
-        </div>
-      </div>
-      <div class="right-sect">
-        <img src="./images/banner_img_01.jpg" alt="shoes image" id="slide-1" />
-      </div>
-    </div>
-  </section>
-  <section class="catagories">
-    <div class="catg-text">
-      <p class="h1">Catagories Of The Month</p>
-      <p class="ct-desc">
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim id est laborum.
-      </p>
-    </div>
-    <div class="rnd-image-cntr">
-      <div class="sl-image">
-        <img src="./images/category_img_01.jpg" alt="casio watch" />
-        <p class="labels">Watches</p>
-        <input type="button" name="shop" value="Go Shop" />
-      </div>
-      <div class="sl-image">
-        <img src="./images/category_img_02.jpg" alt="casio watch" />
-        <p class="labels">Shoes</p>
-        <input type="button" name="shop" value="Go Shop" />
-      </div>
-      <div class="sl-image">
-        <img src="./images/category_img_03.jpg" alt="casio watch" />
-        <p class="labels">Accessories</p>
-        <input type="button" name="shop" value="Go Shop" />
+  <nav class="navbar navbar-expand-lg bg-body-tertiary pt-4">
+    <div class="container-fluid p-3">
+      <a class="navbar-brand" href="#">Zebi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
     </div>
-  </section>
-  <section class="features">
-    <div class="catg-text">
-      <p class="h1">Featured Products</p>
-      <p class="ct-desc">
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim id est laborum.
-      </p>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="3000">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
-    <div class="fe-cards">
-      <div class="card">
-        <div class="cd-img">
-          <img src="./images/feature_prod_01.jpg" alt="torch image" />
-        </div>
-        <div class="cd-descript">
-          <div class="stars-prc">
-            <div class="stars">
-              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
-            </div>
-            <div class="pric">
-              <p>$240.00</p>
-            </div>
-          </div>
-          <div class="txts">
-            <h5>Hand Torch</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in
-              culpa qui officia deserunt.
+
+    <!-- Carousel Inner -->
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="container-fluid d-flex flex-column flex-lg-row align-items-center justify-content-between py-5">
+          <!-- Left Text -->
+          <div class="text-start p-lg-5">
+            <h2 class="fw-bold text-success">Zebi <span class="text-success">eCommerce</span></h2>
+            <h3 class="fw-light mb-3">Tiny and Perfect eCommerce Store.</h3>
+            <p class="text-muted">
+              Explore a stylish, responsive, and fast website crafted to impress.
+              <a href="#" class="text-success text-decoration-none fw-semibold">Zebi</a> blends creativity with
+              cutting-edge technology to provide visitors a seamless journey — perfect for those who value
+              quality and innovation.
             </p>
           </div>
-          <div class="reviewss">
-            <p>
-              Reviews (24)
-            </p>
+
+          <!-- Right Image -->
+          <div class="text-center">
+            <img src="./images/banner_img_01.jpg" class="img-fluid" alt="Product image" style="max-width: 480px;">
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="cd-img">
-          <img src="./images/feature_prod_02.jpg" alt="torch image" />
-        </div>
-        <div class="cd-descript">
-          <div class="stars-prc">
-            <div class="stars">
-              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
-            </div>
-            <div class="pric">
-              <p>$480.00</p>
-            </div>
-          </div>
-          <div class="txts">
-            <h5>Wrist Watch</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in
-              culpa qui officia deserunt.
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="container-fluid d-flex flex-column flex-lg-row align-items-center justify-content-between py-5">
+          <div class="text-start p-lg-5">
+            <h2 class="fw-bold text-success">Zebi <span class="text-success">eCommerce</span></h2>
+            <h4 class="fw-light mb-3 ">Shop Smarter with Speed.</h4>
+            <p class="text-muted">
+              Discover the perfect mix of performance and design in every page you browse.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae.
+              Lorem ipsum dolor sit amet.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam atque a quae.
             </p>
           </div>
-          <div class="reviewss">
-            <p>
-              Reviews (84)
-            </p>
+          <div class="text-center">
+            <img src="./images/banner_img_02.jpg" class="img-fluid" alt="Product image" style="max-width: 480px;">
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="cd-img">
-          <img src="./images/feature_prod_03.jpg" alt="torch image" />
-        </div>
-        <div class="cd-descript">
-          <div class="stars-prc">
-            <div class="stars">
-              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-            </div>
-            <div class="pric">
-              <p>$360.00</p>
-            </div>
-          </div>
-          <div class="txts">
-            <h5>Polaride Machine</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in
-              culpa qui officia deserunt.
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="container-fluid d-flex flex-column flex-lg-row align-items-center justify-content-between py-5">
+          <div class="text-start p-lg-5">
+            <h2 class="fw-bold text-success">Zebi <span class="text-success">eCommerce</span></h2>
+            <h3 class="fw-light mb-3">Design that Inspires.</h3>
+            <p class="text-muted">
+              Simplicity and innovation come together to enhance your online experience.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae.
+              Lorem ipsum dolor sit amet.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est corrupti voluptates!
             </p>
           </div>
-          <div class="reviewss">
-            <p>
-              Reviews (49)
-            </p>
+          <div class="text-center">
+            <img src="./images/banner_img_03.jpg" class="img-fluid" alt="Product image" style="max-width: 480px;">
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <div class="last-sect">
-    <div class="upper-part">
-      <div class="headers">
-        <p class="logo-txt">Zebi Shop</p>
-        <p class="side-txt">Products </p>
-        <p class="side-txt">Further Info</p>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container marketing py-5 text-center">
+
+    <!-- Section heading -->
+    <h2 class="fw-light mb-3">Categories Of The Month</h2>
+    <p class="text-muted mb-5">
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <!-- Three columns of text below the heading -->
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <img src="./images/category_img_01.jpg" class="bd-placeholder-img rounded-circle" width="260" height="260"
+          alt="">
+        <h3 class="fw-normal mt-5">Watches</h3>
+
+        <p><a class="btn btn-success" href="#">Shop</a></p>
       </div>
-      <div class="body-txt">
-        <div class="contactss">
-          <p><i class="fa-solid fa-location-dot"></i> <a href="https://maps.google.com" target="noopener">123
-              Consectetur at ligula
-              10660</a></p>
-          <p><i class="fa-solid fa-phone-flip"></i> 010-020-0340</p>
-          <p><i class="fa-solid fa-envelope"></i> <a href="https://mail.google.com"
-              target="noopener">info@company.com</a>
-          </p>
-        </div>
-        <div class="products">
-          <p><a href="#">Luxury</a></p>
-          <p><a href="#">Sport Wear</a></p>
-          <p><a href="#">Men's Shoes</a></p>
-          <p><a href="#">Women's Shoes</a></p>
-          <p><a href="#">Popular Dresses</a></p>
-          <p><a href="#">Gym Accessories</a></p>
-          <p><a href="#">Sports Shoes</a></p>
-        </div>
-        <div class="p-info">
-          <p><a href="#">Home</a></p>
-          <p><a href="#">About Us</a></p>
-          <p><a href="#">Shop Location</a></p>
-          <p><a href="#">FAQs</a></p>
-          <p><a href="#">Contact</a></p>
-        </div>
+
+      <div class="col-lg-4 mb-4">
+        <img src="./images/category_img_02.jpg" class="bd-placeholder-img rounded-circle" width="260" height="260"
+          alt="">
+        <h3 class="fw-normal mt-5">Shoes</h3>
+        <p><a class="btn btn-success" href="#">Shop</a></p>
       </div>
-    </div>
-    <div class="last-lasts">
-      <div class="ic-links">
-        <a href="https://www.facebook.com" target="noopener"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/" target="noopener"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/feed/" target="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="https://x.com" target="noopener"><i class="fa-brands fa-twitter"></i></a>
-      </div>
-      <div class="emial-fld">
-        <input type="emial" name="email" id="mail" placeholder="Email Address" required>
-        <input type="submit" name="loign" id="btn" value="Subscribe">
+
+      <div class="col-lg-4 mb-4">
+        <img src="./images/category_img_03.jpg" class="bd-placeholder-img rounded-circle" width="260" height="260"
+          alt="">
+        <h3 class="fw-normal mt-5">Accessories</h3>
+        <p><a class="btn btn-success" href="#">Shop</a></p>
       </div>
     </div>
   </div>
-  <footer>
-    <p>Copyright © 2021 Company Name | Designed by <a href="#">SM Designs</a></p>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card shadow">
+            <img src="./images/feature_prod_01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+
+              <!-- ⭐ Rating stars -->
+              <div class="card-text d-flex justify-content-between">
+                <div class="text-start mb-2">
+                  <i class=" bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <div class="price">
+                  <p>$24.00</p>
+                </div>
+              </div>
+              <h2 class="card-text">Hand Torch</h2>
+              <p class="card-text">This is a short description for the first card. Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Quas.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Reviews (24)</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card shadow">
+            <img src="./images/feature_prod_02.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+
+              <!-- ⭐ Rating stars -->
+              <div class="card-text d-flex justify-content-between">
+                <div class="text-start mb-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                </div>
+                <div class="price">
+                  <p>$120.00</p>
+                </div>
+              </div>
+              <h2 class="card-text">Wrist Watch</h2>
+              <p class="card-text">This is a short description for the second. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Officia.</card>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Reviews (84)</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card shadow">
+            <img src="./images/feature_prod_03.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+
+              <!-- ⭐ Rating stars -->
+              <div class="card-text d-flex justify-content-between">
+                <div class="text-start mb-2">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-half text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                </div>
+                <div class="price">
+                  <p>$520.00</p>
+                </div>
+              </div>
+              <h2 class="card-text">Polaride Machine</h2>
+              <p class="card-text">This is a short description for the third card. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Officiis!</p>
+              <div class="d-flex justify-content-between align-items-center">
+
+                <small class="text-muted">Reviews (49)</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <footer class="footer bg-dark text-light pt-5 pb-3">
+    <div class="container">
+      <div class="row border-bottom pb-4 mb-4">
+        <!-- Column 1 -->
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h4 class="footer-brand text-success border-bottom pb-2 mb-3 fs-1">Zebi Shop</h4>
+          <ul class="list-unstyled mt-3 pt-5">
+            <li class="mb-2">
+              <i class="bi bi-geo-alt-fill me-2"></i>
+              123 Consectetur at ligula 10660
+            </li>
+            <li class="mb-2">
+              <i class="bi bi-telephone-fill me-2"></i>
+              010-020-0340
+            </li>
+            <li>
+              <i class="bi bi-envelope-fill me-2"></i>
+              info@company.com
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h5 class="footer-title mb-3 border-bottom pb-3">Products</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="footer-link">Luxury</a></li>
+            <li><a href="#" class="footer-link">Sport Wear</a></li>
+            <li><a href="#" class="footer-link">Men's Shoes</a></li>
+            <li><a href="#" class="footer-link">Women's Shoes</a></li>
+            <li><a href="#" class="footer-link">Popular Dresses</a></li>
+            <li><a href="#" class="footer-link">Gym Accessories</a></li>
+            <li><a href="#" class="footer-link">Sports Shoes</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="col-md-4">
+          <h5 class="footer-title mb-3 border-bottom pb-3">Further Info</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="footer-link">Home</a></li>
+            <li><a href="#" class="footer-link">About Us</a></li>
+            <li><a href="#" class="footer-link">Shop Location</a></li>
+            <li><a href="#" class="footer-link">FAQs</a></li>
+            <li><a href="#" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <dvi class="text-left large text-secondary ">
+        <p><i class="bi bi-facebook p-3 fs-1"></i><i class="bi bi-instagram p-3 fs-1"></i><i
+            class="bi bi-linkedin p-3 fs-1"></i><i class="bi bi-twitter-x p-3 fs-1"></i></p>
+      </dvi>
+      <!-- Bottom text -->
+      <div class="text-center small text-secondary">
+        © 2025 Zebi Shop. All rights reserved.
+      </div>
+    </div>
   </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
