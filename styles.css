@@ -49,6 +49,11 @@ body {
     opacity: 0;
   }
 }
+.navbar.navbar-expand-lg.bg-body-tertiary.pt-4 {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
 .navbar-expand-lg .navbar-nav .nav-link {
   color: rgb(110, 110, 110);
   font-size: 18px;
